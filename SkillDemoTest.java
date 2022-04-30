@@ -4,6 +4,6 @@ import org.junit.*;
 public class SkillDemoTest { 
     @Test
     public void combineTest() {    
-    assertEquals("heyyou", SkillDemoClass.combineStrings("hey", "you"));
+    assertEquals("hey you", SkillDemoClass.combineStrings("hey", "you"));
     }
 }
